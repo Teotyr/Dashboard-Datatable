@@ -1,0 +1,38 @@
+{
+  "name": "datatable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "react-scripts start",
+    "start": "nodemon ./index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.3",
+    "isomorphic-fetch": "^3.0.0",
+    "mdb-react-ui-kit": "^2.3.0",
+    "mdbreact": "^5.2.0",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
