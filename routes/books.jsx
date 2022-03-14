@@ -30,6 +30,7 @@ router.post("/", (req, res) => {
     author: req.body.author,
     year: req.body.year,
     language: req.body.language,
+    pages: req.body.pages,
 
   });
   book.save();
@@ -43,6 +44,7 @@ router.put("/:id", (req, res) => {
     author: req.body.author,
     year: req.body.year,
     language: req.body.language,
+    pages: req.body.pages,
   })
     .then((book) => {
       res.json(book);

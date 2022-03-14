@@ -1,6 +1,7 @@
 const express = require("express");
 const datatablesRouter = require("./routes/datatables.jsx");
 const usersRouter = require("./routes/users.jsx");
+const storiesRouter = require("./routes/stories.jsx");
 const booksRouter = require("./routes/books.jsx");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
@@ -39,6 +40,7 @@ app.get("/", (req, res) => {
 app.use("/datatables", datatablesRouter);
 app.use("/users", usersRouter);
 app.use("/books", booksRouter);
+app.use("/stories", storiesRouter);
 
 
 
